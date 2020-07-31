@@ -1,0 +1,125 @@
+
+
+/*
+https://www.pexels.com/photo/photo-of-galaxy-821644/ picture for the body
+*/
+body{
+background-image: url('galaxy.png');
+margin: 0px;
+color:white;
+}
+
+.header{
+    position: absolute;
+    top: 75vh;
+    left: 37vw;
+    height: 22px;
+    font-size: 1.9vmax;
+    width: 300px;
+    padding: 20px;
+    color: red;
+
+}
+
+
+.info
+{
+    height: 6vh;
+}
+
+.info>p
+{
+    font-family: 'Sigmar One', cursive;
+    position: absolute;
+    margin: 0px;
+    top: -0.2%;
+    color: white;
+    font-size:2.2vw;
+
+}
+.About-page {
+
+    font-family: 'Sigmar One', cursive;
+    position: absolute;
+    top: 83vh;
+    right: 0;
+    height: 4vh;
+    font-size: 2.0vmax;
+    opacity:2.0;
+    width: 22vw;
+    border: 0.5vh solid red;
+    border-radius: 0.5vh 0.5vh 0.5vh 0.5vh;
+    padding: 3vmin;
+
+  }
+a{
+    color: white;
+}
+
+
+.Help-page{
+
+    font-family: 'Sigmar One', cursive;
+    position: absolute;
+    top: 83vh;
+    left: 0;
+    height: 4vh;
+    font-size: 2.0vmax;
+    opacity:2.0;
+    width: 22vw;
+    border: 0.5vh solid red;
+    border-radius: 0.5vh 0.5vh 0.5vh 0.5vh;
+    padding: 3vmin;
+ 
+
+}
+#highscore{
+    visibility: hidden;
+    display: none;
+}
+#alertBox {
+    position:relative;
+    width:33%;
+    min-height:100px;
+    max-height:400px;
+    margin-top:50px;
+    border:1px solid #fff;
+    background-color:#fff;
+    background-repeat:no-repeat;
+    top:30%;
+}
+.info>p>span
+{
+    color: red;
+}
+
+.game-window
+{
+    border: 5px Solid Red;
+    height: 69vh
+}
+
+#player
+{
+
+    position: absolute;
+    top: 60vh;
+    left: 47vw;
+    height: 4.9vh;
+    width: 5vw;
+}
+
+.aliens>div
+{
+    /* image from https://www.clipart.email/download/1114845.html */
+    background-image: url("ufo.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    height: 35px;
+    width: 5vw;
+    top: 10vh;
+    margin: 0px;
+    z-index: -1;
+
+}
